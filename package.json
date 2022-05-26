@@ -17,17 +17,23 @@
     "lint": "eslint src",
     "test": "jest",
     "test:coverage": "yarn test --coverage",
-    "test:watch": "yarn test -- --watch"
+    "test:watch": "yarn test -- --watch",
+    "bundle": "webpack"
   },
   "author": "Matt Phillips",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.16.8",
-    "@babel/core": "^7.16.12",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
     "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.22.7",
     "eslint": "^8.7.0",
-    "jest": "^27.4.7"
+    "jest": "^27.4.7",
+    "k6": "^0.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   },
   "babel": {
     "presets": [
